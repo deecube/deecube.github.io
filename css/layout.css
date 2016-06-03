@@ -119,6 +119,7 @@ header .scrolldown a {
 }
 header .scrolldown a:hover { color: #11ABB0; }
 
+
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
@@ -325,35 +326,35 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+.C {
+  	width: 40%;
+  	-moz-animation: C 2s ease;
+  	-webkit-animation: C 2s ease;
 }
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+.Python {
+  	width: 20%;
+  	-moz-animation: Python 2s ease;
+  	-webkit-animation: Python 2s ease;
 }
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+.Linux {
+  	width: 20%;
+  	-moz-animation: Linux 2s ease;
+  	-webkit-animation: Linux 2s ease;
 }
 .css {
-  	width: 90%;
+  	width: 20%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
 .html5 {
-  	width: 80%;
+  	width: 20%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.embeddedc {
+  	width: 2%;
+  	-moz-animation: embeddedc 2s ease;
+  	-webkit-animation: embeddedc 2s ease;
 }
 
 @-moz-keyframes photoshop {
