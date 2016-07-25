@@ -14,7 +14,7 @@ $('#container').imagesLoaded( function() {
   setTimeout(function(){
     $('body').addClass('loaded');
     $('body').removeClass('is-loading');
-});
+},3000);
 });
  
  jQuery(document).ready(function($) {
