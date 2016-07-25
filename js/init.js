@@ -3,14 +3,23 @@
 /* Init JS
 /*
 -----------------------------------------------------------------------------------*/
+/*Hide scrollbars while loading*/
 $(document).ready(function() {
  
     setTimeout(function(){
-        $('body').addClass('loaded');
+        $('body').addClass('is-loading');
         
-    }, 5000);
+    });
  
 });
+/*Load content and scrollbars reappear*/
+$('#container').imagesLoaded( function() {
+  setTimeout(function(){
+    $('body').addClass('loaded');
+    $('body').removeClass('is-loading');
+},3000);
+});
+ 
  jQuery(document).ready(function($) {
 
 /*----------------------------------------------------*/

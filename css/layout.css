@@ -122,6 +122,8 @@ body { background: #0f0f0f; }
     width: 100%;
     max-width: 1500px;
 }
+/* is Loading */
+.is-loading{overflow: hidden;}
 /* Loaded */
 .loaded #loader-wrapper .loader-section.section-left {
     -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
