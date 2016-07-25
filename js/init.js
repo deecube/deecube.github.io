@@ -6,10 +6,7 @@
 /*Hide scrollbars while loading*/
 $(document).ready(function() {
  
-    setTimeout(function(){
         $('body').addClass('is-loading');
-        
-    });
  
 });
 /*Load content and scrollbars reappear*/
