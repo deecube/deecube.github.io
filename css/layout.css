@@ -503,6 +503,11 @@ ul#nav li.current a { color: #F06000; }
     -moz-animation: embeddedc 2s ease;
     -webkit-animation: embeddedc 2s ease;
 }
+.r{
+    width: 30%;
+    -moz-animation: r 2s ease;
+    -webkit-animation: r 2s ease;
+}
 
 @-moz-keyframes C {
   0%   { width: 0px;  }
@@ -536,7 +541,10 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 40%;  }
 }
-
+@-moz-keyframes r {
+  0%   { width: 0px;  }
+  100% { width: 30%;  }
+}
 @-webkit-keyframes C {
   0%   { width: 0px;  }
   100% { width: 60%;  }
@@ -568,6 +576,10 @@ ul#nav li.current a { color: #F06000; }
 @-webkit-keyframes MATLAB {
   0%   { width: 0px;  }
   100% { width: 40%;  }
+}
+@-webkit-keyframes MATLAB {
+  0%   { width: 0px;  }
+  100% { width: 30%;  }
 }
 
 /* ------------------------------------------------------------------
