@@ -483,6 +483,11 @@ ul#nav li.current a { color: #F06000; }
     -moz-animation: Linux 2s ease;
     -webkit-animation: Linux 2s ease;
 }
+.Shell {
+    width: 80%;
+    -moz-animation: Shell 2s ease;
+    -webkit-animation: Shell 2s ease;
+}
 .css {
     width: 30%;
     -moz-animation: css 2s ease;
