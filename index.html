@@ -1,454 +1,719 @@
 <!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 
-   <!--- Basic Page Needs
+   <!--- basic page needs
    ================================================== -->
    <meta charset="utf-8">
-   <title>Debdeep Dey</title>
-   <meta name="description" content="Resume">
-   <meta name="author" content="Debdeep Dey|Engineer">
-   <meta name="google-site-verification" content="2cykF0ONa1yElVS8KK55-POcL_6U93P3gxdrheAO0j4" />
-   <!-- Mobile Specific Metas
+	<title>Debdeep Dey</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
    ================================================== -->
-   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-   <!-- CSS
-    ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-   <link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">
-   <link rel="stylesheet" href="css/magnific-popup.css">
-
-   <!-- Script
+ 	<!-- CSS
    ================================================== -->
-   <script src="js/modernizr.js"></script>
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
 
-   <!-- Favicons
-   ================================================== -->
-<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-<script>
-           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-           })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+   <!-- script
+   ================================================== -->   
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
 
-           ga('create', 'UA-81420828-2', 'auto');
-           ga('send', 'pageview');
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
 
-      </script>
 </head>
 
-<body>
+<body id="top">
 
-<div id="loader-wrapper">
-         <div id="loader"></div>
-
-         <div class="loader-section section-left"></div>
-            <div class="loader-section section-right"></div>
-
-</div>
-<div id="content">
-
-
-   <!-- Header
+	<!-- header 
    ================================================== -->
-   <header id="home">
-      
-      <nav id="nav-wrap">
+   <header>   	
+   	<div class="row">
 
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-         <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
 
-         <ul id="nav" class="nav">
-            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <li><a class="smoothscroll" href="#about">About</a></li>
-           <li><a class="smoothscroll" href="#resume">Resume</a></li>
-            <li><a class="smoothscroll" href="#testimonials">Quotes</a></li>
-            <li><a href="http://www.debdeepdey.xyz/blog">Blog</a></li>
-            <li><a class="smoothscroll" href="#contact">Contact</a></li>
-         </ul> <!-- end #nav -->
+	      
 
-      </nav> <!-- end #nav-wrap -->
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
+						<li><a href="http://www.debdeepdey.xyz/blog">Blog</a></li>
+						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>					
+						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
+										
+					</ul>
+				</nav>    		
+   		</div> <!-- /top-bar --> 
+   		
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
 
-      <div class="row banner">
-         <div class="banner-text">
-            <h1 class="responsive-headline">I'm Debdeep Dey.</h1>
-            <h3>I'm a Manipal based <span>Electronics and Communication Engineer</span>, with an avid interest in Embedded Systems and Free Open Source Software. Please  <a class="smoothscroll" href="#about">scroll down</a>
-            to learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
-            <hr />
-            <ul class="social">
-               <li><a href="https://www.facebook.com/the.debdeep"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="http://www.github.com/deecube"><i class="fa fa-github"></i></a></li>
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
+
+   	<div class="intro-overlay"></div>	
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+	   			<h5>Hello, World.</h5>
+	   			<h1>I'm Debdeep Dey.</h1>
+
+	   			<p class="intro-position">
+	   				<span>Electronics and Communication Engineering Student</span>
+	   				<span>Networking Enthusiast, CySec Aficionado</span> 
+	   			</p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
+
+   	<ul class="intro-social">        
+<li><a href="https://www.facebook.com/the.debdeep"><i class="fa fa-facebook"></i></a></li>
                <li><a href="https://twitter.com/debdeepd1"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="https://plus.google.com/u/0/+DebdeepDey28/about"><i class="fa fa-google-plus-official"></i></a></li>
+              
                <li><a href="https://in.linkedin.com/in/debdeepdey"><i class="fa fa-linkedin"></i></a></li>
                <li><a href="https://www.instagram.com/debdeepd3/"><i class="fa fa-instagram"></i></a></li>
-               
-            </ul>
-         </div>
-      </div>
+      </ul> <!-- /intro-social -->      	
 
-      <p class="scrolldown">
-         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
-      </p>
-
-   </header> <!-- Header End -->
+   </section> <!-- /intro -->
 
 
-   <!-- About Section
+   <!-- about section
    ================================================== -->
-   <section id="about">
+   <section id="about">  
 
-      <div class="row">
+   	<div class="row section-intro">
+   		<div class="col-twelve">
 
-         <div class="three columns">
+   			<h5>About Me</h5>
+   			<h1>Let me introduce myself.</h1>
 
-            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+   			<div class="intro-info">
 
-         </div>
+   				<img src="images/profile-pic.jpg" alt="Profile Picture">
 
-         <div class="nine columns main-col">
+   				<p class="lead">I am a student in Manipal Institute of Technology, Manipal pursuing a B.Tech degree in Electronics and Communication Engineering. I am currently in my 7th semester.</p>
+   			</div>   			
 
-            <h2>About Me</h2>
+   		</div>   		
+   	</div> <!-- /section-intro -->
 
-            <p>I am a student in Manipal Institute of Technology, Manipal pursuing a B.Tech degree in Electronics and Communication Engineering. I am currently in my 6th semester.
-            </p>
+   	<div class="row about-content">
 
-            <div class="row">
+   		<div class="col-six tab-full">
 
-               <div class="columns contact-details">
+ <h3>Skills</h3>
+   			<p>Being an autodidact, I have dabbled into numerous fields and have picked up varied set of skills along the way.</p>
 
-                  <h2>Contact Details</h2>
-                  <p class="address1">
-                     <span>Debdeep Dey</span><br>
-                     <span>MIT Hostels<br>
-                           Manipal, Karnataka
-                     </span><br>
-                <span>mail@debdeepdey.me</span>
-                     <span>debdeep.dey@learner.manipal.edu</span>
-                  </p>
+				<ul class="skill-bars">
+				   <li>
+				   	<div class="progress percent75"><span>75%</span></div>
+				   	<strong>C++</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent55"><span>55%</span></div>
+				   	<strong>Linux Sys Admin</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent80"><span>80%</span></div>
+				   	<strong>Shell Scripting</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent70"><span>70%</span></div>
+				   	<strong>Python</strong>
+				   </li>
+				</ul> <!-- /skill-bars -->		
 
-               </div>
+   		</div>
 
-               <div class="columns download">
-                  <p>
-                     <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
-                  </p>
-               </div>
+   		<div class="col-six tab-full">
 
-            </div> <!-- end row -->
+   			 <h3><br></h3>
+   			<p><br><br><br></p>
 
-         </div> <!-- end .main-col -->
+				<ul class="skill-bars">
+				   <li>
+				   	<div class="progress percent60"><span>60%</span></div>
+				   	<strong>SQL</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent75"><span>75%</span></div>
+				   	<strong>Embedded C</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent60"><span>60%</span></div>
+				   	<strong>R</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent70"><span>70%</span></div>
+				   	<strong>C</strong>
+				   </li>
+				   
+				</ul> <!-- /skill-bars -->		
 
-      </div>
-      <!--<p class="scrolldown">
-         <a class="smoothscroll" href="#resume"><i class="icon-down-circle"></i></a>
-      </p>-->
+   		</div>
 
-   </section> <!-- About Section End-->
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+   			<a href="#" title="Download CV" class="button button-primary">Download CV</a>
+   		</div>   		
+   	</div>
+
+   </section> <!-- /process-->    
 
 
-   <!-- Resume Section
+   <!-- resume Section
    ================================================== -->
-   <section id="resume">
+	<section id="resume" class="grey-section">
 
-      <!-- Education
-      ----------------------------------------------- -->
-      <div class="row education">
+		<div class="row section-intro">
+   		<div class="col-twelve">
 
-         <div class="three columns header-col">
-            <h1><span>Education</span></h1>
-         </div>
+   			<h5>Resume</h5>
+   			<h1>More of my credentials.</h1>
 
-         <div class="nine columns main-col">
+   			<p class="lead">I have had the unique opportunity to work, contribute and participate in various open source initiatives during my time at college.</p>
 
-            <div class="row item">
+   		</div>   		
+   	</div> <!-- /section-intro--> 
 
-               <div class="twelve columns">
+   	<div class="row resume-timeline">
 
-                  <h3>Manipal Institute of Technology, Manipal</h3>
-                  <p class="info">B.Tech in Electronics and Communication Engineering <span>&bull;</span> <em class="date">April 2018</em></p>
+   		<div class="col-twelve resume-header">
 
-                  <p>
+   			<h2>Work Experience</h2>
 
-                  </p>
+   		</div> <!-- /resume-header -->
 
-               </div>
+   		<div class="col-twelve">
 
-            </div> <!-- item end -->
+   			<div class="timeline-wrap">
 
-            <!-- <div class="row item">
+   				<div class="timeline-block">
 
-               <div class="twelve columns">
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
 
-                  <h3>CMS High School</h3>
-                  <p class="info">Class 12 <span>&bull;</span> <em class="date">March 2013</em></p>
+	   				<div class="timeline-header">
+	   					<h3>Summer Intern</h3>
+	   					<p>May 2016 - July 2016</p>
+	   				</div>
 
-                  <p>
+	   				<div class="timeline-content">
+	   					<h4>FOSSEE, IIT Bombay</h4>
+	   					<p>My responsibilities included developing functions for the Scilab Signal Processing Toolbox and also testing/debugging the same toolbox.</p>
+	   				</div>
 
-                  </p>
+	   			</div> <!-- /timeline-block -->
 
-               </div>
+	   			<div class="timeline-block">
 
-            </div> <!-- item end -->
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
 
-         </div> <!-- main-col end -->
+	   				<div class="timeline-header">
+	   					<h3>Intern</h3>
+	   					<p>July 2016 - Aug 2016</p>
+	   				</div>
 
-      </div> <!-- End Education -->
-
-
-      <!-- Work
-      ----------------------------------------------- -->
-      <div class="row work">
-
-         <div class="three columns header-col">
-            <h1><span>Internships</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-               	<h3><a href='http://www.acxiomconsulting.com/'>Axciom Consulting Private Limited, New Delhi</a></h3>
-                  <p class="info">Intern<span>&bull;</span> <em class="date">July 2016 - August 2016</em></p>
-
-                  <p>
-						Acxiom Consulting Pvt. Ltd. is one of leading and a decade old organization in
+	   				<div class="timeline-content">
+	   					<h4>Axciom Consulting Private Limited, New Delhi</h4>
+	   					<p>Acxiom Consulting Pvt. Ltd. is one of leading and a decade old organization in
 						the field of Business Process Consulting and Solution to mid-sized enterprises. I was
 						briefed about their ERP and CRM software, namely Microsoft Dynamics CRM suite.
 						My responsibilities included learning the optimal usage of the said suite and it’s de-
-						ployment in a real world scenario.
-                  </p>
+						ployment in a real world scenario.</p>
+	   				</div>
 
-                  <h3><a href='http://fossee.in/'>FOSSEE, IIT Bombay</a></h3>
-                  <p class="info">Coder<span>&bull;</span> <em class="date">March 2016 - July 2016</em></p>
+	   			</div> <!-- /timeline-block -->
 
-                  <p>
-					 My responsibilities include coding functions available in the MATLAB Signal Pro-
-					cessing Toolbox for the open source alternative to it, Scilab. I have coded a number of
-					functions and have also tested functions that have been written by others, by writing
-					a number of test cases to check their output and exception handling.
-                  </p>
+	   			
+   			</div> <!-- /timeline-wrap -->   			
 
-               </div>
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+   	
+   	<div class="row resume-timeline">
 
-            </div> <!-- item end -->
+   		<div class="col-twelve resume-header">
 
-         
-         </div> <!-- main-col end -->
+   			<h2>Education</h2>
 
-      </div> <!-- End Work -->
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Bachelor Degree</h3>
+	   					<p>August 2014 - Present</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Manipal Institute of Technology, Manipal</h4>
+	   					<p>B.Tech in Electronics and Communication Engineering </p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
 
 
-      <!-- Skills
-      ----------------------------------------------- -->
-      <div class="row skill">
 
-         <div class="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
+   			</div> <!-- /timeline-wrap -->   			
 
-         <div class="nine columns main-col">
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+		
+	</section> <!-- /features -->
 
-            <p>
+
+	<!-- Portfolio Section
+   ================================================== -->
+	<section id="portfolio">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Portfolio</h5>
+   			<h1>Here are some of my projects</h1>
+
+   			<p class="lead">Most of these projects are on github. For the ones that aren't, the link of the website has been provided.</p>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row portfolio-content">
+
+   		<div class="col-twelve">
+
+   			<!-- portfolio-wrapper -->
+	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+	         	<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/liberty.jpg" alt="Liberty">
+	                  <a href="#modal-01" class="overlay">	                  	           
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+		     					       <h3 class="folio-title">Intellifarm</h3>	     					    
+		     					    	 <span class="folio-types">
+		     					       	  A platform for agricultural analysis and control
+		     					       </span>
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+	               </div>	               
+	        		</div> <!-- /folio-item -->
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/shutterbug.jpg" alt="Shutterbug">
+	               	<a href="#modal-02" class="overlay">              		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">I AM /</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Blog
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+ 
+
+	            <!-- modal popups - begin
+	            ============================================================= -->
+	            <div id="modal-01" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-liberty.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Intellifarm</h4>		      
+					      <p>Stack : Linux, Nginx, MySQL, PHP 
+The Smart Farming system is an Internet connected device (IoT device) comprising of a SBC Raspberry Pi 3 which acts as a central hub and an Arduino microcontroller which acts as a satellite node. The system is used for analysing the variations in interesting data collected from the sensors and act on the data to control the farming process. The system includes multiple sensors like a soil moisture sensor, a temperature sensor and a humidity sensor. Using the data collected, the quality and state of the soil is judged and based on preset thresholds the actuators are activated. The data collected are also transmitted to the central hub where it is stored in a MYSQL database making it easily accessible on the internet from anywhere in the world in the form of charts that can be easily interpreted by the common man. An SMTP based email and Twilio based SMS notification system is also set to inform the user about any emergency situation that might need their attention.</p>
+
+					      <div class="categories">Web Development</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://intellifarm.tk">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-01 -->
+
+				   <div id="modal-02" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-shutterbug.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>I AM /</h4>		      
+					      <p>The GNU/Linux Blog</p>
+
+					      <div class="categories">Blogging</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.iamroot.tech">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-02 -->
+
+				   <div id="modal-03" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-clouds.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Clouds</h4>		      
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+					      <div class="categories">Web Design</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.behance.net">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-03 -->
+
+				   <div id="modal-04" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-beetle.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Beetle</h4>		      
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+					      <div class="categories">Branding</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.behance.net">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-04 -->
+
+				   <div id="modal-05" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-lighthouse.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Lighthouse</h4>		      
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+					      <div class="categories">Web Development</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.behance.net">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-05 -->
+
+				   <div id="modal-06" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-salad.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Salad</h4>		      
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+					      <div class="categories">Branding</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.behance.net">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-06 -->
+
+
+				   <!-- modal popups - end
+	            ============================================================= -->
+
+	         </div> <!-- /portfolio-wrapper --> 
+
+   		</div>  <!-- /twelve -->   
+
+   	</div> <!-- /portfolio-content --> 
+		
+	</section> <!-- /portfolio --> 
+
+	
+	
+
+	<!-- stats Section
+   ================================================== -->
+	<section id="stats" class="count-up">
+
+		<div class="row">
+			<div class="col-twelve">
+
+				<div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-pencil-ruler"></i>
+						</div>
+
+						<h3 class="stat-count">
+							15
+						</h3>
+
+						<h5 class="stat-title">
+							Projects Completed
+						</h5>
+
+					</div> <!-- /stat -->					
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-users"></i>
+						</div>
+
+						<h3 class="stat-count">
+							20
+						</h3>
+
+						<h5 class="stat-title">
+							Courses Completed
+						</h5>
+
+					</div> <!-- /stat -->
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-badge"></i>
+						</div>
+
+						<h3 class="stat-count">
+							3
+						</h3>
+
+						<h5 class="stat-title">
+							Awards Received
+						</h5>
+
+					</div> <!-- /stat -->									
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-light-bulb"></i>
+						</div>
+
+						<h3 class="stat-count">
+							365
+						</h3>
+
+						<h5 class="stat-title">
+							Crazy Ideas
+						</h5>
+
+					</div> <!-- /stat -->
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-cup"></i>
+						</div>
+
+						<h3 class="stat-count">
+							1500
+						</h3>
+
+						<h5 class="stat-title">
+							Coffee Cups
+						</h5>
+
+					</div> <!-- /stat -->
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-clock"></i>
+						</div>
+
+						<h3 class="stat-count">
+							7200
+						</h3>
+
+						<h5 class="stat-title">
+							Hours
+						</h5>
+
+					</div> <!-- /stat -->
+
+				</div> <!-- /stats-list -->
+
+			</div> <!-- /twelve -->
+		</div> <!-- /row -->
+
+	</section> <!-- /stats -->
+
+	
+   <!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact</h5>
+   			<h1>I'd Love To Hear From You.</h1>
+
+   			<p class="lead">Please feel free to contact me at the given address or alternatively you could email me.</p>
+
+   		</div> 
+   	</div> <!-- /section-intro -->
+
+
+
+   	<div class="row contact-info">
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-pin"></i>
+   			</div>
+
+   			<h5>Where to find me</h5>
+
+   			<p>
+           Debdeep Dey<br>
+           MIT Hostels<br>
+           Manipal, Karnataka<br>
             </p>
 
-            <div class="bars">
+   		</div>
 
-               <ul class="skills">
-                  <li><span class="bar-expand C"></span><em>C</em></li>
-                  <li><span class="bar-expand MATLAB"></span><em>MATLAB</em></li>
-                        <li><span class="bar-expand Python"></span><em>Python</em></li>
-                        <li><span class="bar-expand CPP"></span><em>CPP</em></li>
-                  <li><span class="bar-expand Linux"></span><em>Linux</em></li>
-                  <li><span class="bar-expand Shell"></span><em>Shell Scripting</em></li>
-                  <li><span class="bar-expand css"></span><em>CSS</em></li>
-                  <li><span class="bar-expand html5"></span><em>HTML5</em></li>
-                  <li><span class="bar-expand embeddedc"></span><em>Embedded C</em></li>
-                  <li><span class="bar-expand r"></span><em>R</em></li>
-               </ul>
+   		<div class="col-four tab-full collapse">
 
-            </div><!-- end skill-bars -->
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
 
-         </div> <!-- main-col end -->
+   			<h5>Email Me At</h5>
 
-      </div> <!-- End skills -->
+   			<p>mail@debdeepdey.me<br>
+			   	debdeep.dey@learner.manipal.edu			     
+			   </p>
 
-   </section> <!-- Resume Section End-->
+   		</div>
 
+   		<div class="col-four tab-full">
 
-   
+   			<div class="icon">
+   				<i class="icon-phone"></i>
+   			</div>
 
-         </div> <!-- twelve columns end -->
+   			<h5>Call Me At</h5>
 
+   			<p>Mobile: (+91) 7022252128<br>
+			   </p>
 
-
-      </div> <!-- row End -->
-
-   <!-- Testimonials Section
-   ================================================== -->
-   <section id="testimonials">
-
-      <div class="text-container">
-
-         <div class="row">
-
-            <div class="two columns header-col">
-            
-
-               <h1><span>Quotes</span></h1>
-
-            </div>
-
-            <div class="ten columns flex-container">
-
-               <div class="flexslider">
-
-                  <ul class="slides">
-
-                     <li>
-                        <blockquote>
-                           <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
-                           to do what you believe is great work. And the only way to do great work is to love what you do.
-                           If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
-                           </p>
-                           <cite>Steve Jobs</cite>
-                        </blockquote>
-                     </li> <!-- slide ends -->
-
-                     <li>
-                        <blockquote>
-                           <p>Intelligence is the ability to avoid doing work, yet getting the work done.
-                           </p>
-                           <cite>Linus Torvalds</cite>
-                        </blockquote>
-                     </li> <!-- slide ends -->
-
-                  </ul>
-
-               </div> <!-- div.flexslider ends -->
-
-            </div> <!-- div.flex-container ends -->
-
-         </div> <!-- row ends -->
-
-       </div>  <!-- text-container ends -->
-
-   </section> <!-- Testimonials Section End-->
-
-
-   <!-- Contact Section
-   ================================================== -->
-   <section id="contact">
-
-         <div class="row section-head">
-
-            <div class="two columns header-col">
-
-               <h1><span>Get In Touch.</span></h1>
-
-            </div>
-
-            <div class="ten columns">
-
-                  <p class="lead">Please feel free to contact me at the given address or alternatively you could email me.
-                  </p>
-
-            </div>
-
-         </div>
-
-         <div class="row">
-
-            
-
-            <aside class="twelve columns footer-widgets">
-
-               <div class="widget widget_contact">
-
-                  <h4>Address and Email</h4>
-                  <p class="address">
-                     Debdeep Dey<br>
-                     MIT Hostels<br>
-                     Manipal, Karnataka<br>
-                     <span>mail@debdeepdey.me</span><br>
-                     <span>debdeep.dey@learner.manipal.edu</span>
-                  </p>
-
-               </div>
-
-               
-
-            </aside>
-
-      </div>
-
-   </section> <!-- Contact Section End-->
+   		</div>
+   		
+   	</div> <!-- /contact-info -->
+		
+	</section> <!-- /contact -->
 
 
    <!-- footer
    ================================================== -->
+
    <footer>
+     	<div class="row">
 
-      <div class="row">
+     		<div class="col-six tab-full pull-right social">
 
-         <div class="twelve columns">
-
-            <ul class="social-links">
-               <li><a href="https://www.facebook.com/the.debdeep"><i class="fa fa-facebook"></i></a></li>
+     			<ul class="footer-social">        
+				<li><a href="https://www.facebook.com/the.debdeep"><i class="fa fa-facebook"></i></a></li>
                <li><a href="https://twitter.com/debdeepd1"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="https://plus.google.com/u/0/+DebdeepDey28/about"><i class="fa fa-google-plus-official"></i></a></li>
+               <li><a href="https://plus.google.com/u/0/+DebdeepDey28/about"><i class="fa fa-google-plus"></i></a></li>
                <li><a href="https://in.linkedin.com/in/debdeepdey"><i class="fa fa-linkedin"></i></a></li>
                <li><a href="https://www.instagram.com/debdeepd3/"><i class="fa fa-instagram"></i></a></li>
-   
-               
-            </ul>
+			   </ul> 
+	      		
+	      </div>
 
-            <ul class="copyright">
-               <li>&copy; Copyright 2016 Debdeep Dey</li>
-               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
-            </ul>
+      	<div class="col-six tab-full">
+	      	<div class="copyright">
+		        	<span>© Copyright Debdeep Dey 2017.</span> 
+		        	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>	         	
+		         </div>		                  
+	      	</div>
 
-         </div>
+	      	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		      </div>
 
-         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+      	</div> <!-- /row -->     	
+   </footer>  
 
-      </div>
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
 
-   </footer> <!-- Footer End-->
-   </div>
-
-  <!-- Java Script
-   ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-   <script src="js/jquery.imagesloaded.pkgd.min.js"></script>
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/waypoints.js"></script>
-   <script src="js/jquery.fittext.js"></script>
-   <script src="js/magnific-popup.js"></script>
-   <script src="js/init.js"></script>
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
 
 </body>
 
